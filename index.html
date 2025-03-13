@@ -23,10 +23,48 @@
         </p>
       </section>
       <!-- 可以添加更多的 section 或其他内容元素在 main 区域 -->
+
+      <!--  添加联系表单部分  -->
+      <section id="contact-form-section">
+        <h2>联系我们</h2>
+        <form action="#" method="POST">
+          <!--  action="#"  表示提交到当前页面，method="POST"  用于提交表单数据 -->
+          <div>
+            <label for="name">姓名:</label>
+            <input type="text" id="name" name="name" required />
+            <!--  required  属性表示此字段为必填项 -->
+          </div>
+          <div>
+            <label for="email">电子邮件:</label>
+            <input type="email" id="email" name="email" required />
+            <!--  type="email"  会自动进行简单的邮箱格式验证 -->
+          </div>
+          <div>
+            <label for="message">消息:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <!--  rows="5"  设置文本区域的初始行数 -->
+          </div>
+          <div>
+            <button type="submit">提交</button>
+          </div>
+        </form>
+      </section>
+      <!--  联系表单部分结束  -->
     </main>
 
     <footer>
       <p>&copy; 2023 我的网站. 版权所有。</p>
     </footer>
+    <div
+      id="clickable-element"
+      style="
+        padding: 20px;
+        background-color: lightblue;
+        text-align: center;
+        cursor: pointer;
+      "
+    >
+      点击我！
+    </div>
   </body>
 </html>
