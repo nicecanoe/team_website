@@ -1,0 +1,57 @@
+/* style.css */
+
+/* 全局样式 */
+body {
+  font-family: Arial, sans-serif; /* 设置默认字体 */
+  background-color: #f4f4f4; /* 设置背景色 */
+  margin: 0; /* 移除 body 默认的外边距 */
+  padding: 0; /* 移除 body 默认的内边距 */
+}
+
+/* 导航栏样式 */
+header nav {
+  background-color: #333; /* 导航栏背景色 (深灰色) */
+  color: #fff; /* 导航栏文本颜色 (白色) */
+  padding: 15px 0; /* 上下内边距，增加导航栏高度 */
+  text-align: center; /* 文本居中 */
+}
+
+header nav h1 {
+  margin: 0; /* 移除标题默认的外边距 */
+  font-size: 24px; /* 标题字体大小 */
+}
+
+/* 主要内容区域样式 */
+main {
+  max-width: 960px; /* 设置最大宽度 */
+  margin: 20px auto; /* 上下外边距 20px，左右自动居中 */
+  padding: 20px; /* 内边距 */
+  background-color: #fff; /* 主要内容区域背景色 (白色) */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 添加轻微阴影效果 */
+}
+
+main section {
+  margin-bottom: 20px; /* section 底部外边距，分隔内容 */
+}
+
+main h2 {
+  color: #333; /* 主要内容标题颜色 */
+  border-bottom: 2px solid #333; /* 标题底部添加分隔线 */
+  padding-bottom: 10px; /* 标题底部内边距 */
+}
+
+main p {
+  line-height: 1.6; /* 段落行高，增加可读性 */
+  color: #555; /* 段落文本颜色 */
+}
+
+/* 页脚样式 */
+footer {
+  background-color: #333; /* 页脚背景色 (深灰色) */
+  color: #fff; /* 页脚文本颜色 (白色) */
+  text-align: center; /* 文本居中 */
+  padding: 10px 0; /* 上下内边距 */
+  position: fixed; /* 固定在页面底部 */
+  bottom: 0; /* 底部对齐 */
+  width: 100%; /* 宽度 100% */
+}
